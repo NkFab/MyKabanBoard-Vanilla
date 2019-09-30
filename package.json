@@ -1,0 +1,21 @@
+{
+  "name": "mykabanboard-vanilla",
+  "version": "1.0.0",
+  "description": "A basic Kanban board built using HTML, CSS and Vanilla Js",
+  "scripts": {
+    "start": "ws --hostname localhost --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NkFab/MyKabanBoard-Vanilla.git"
+  },
+  "author": "Manzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NkFab/MyKabanBoard-Vanilla/issues"
+  },
+  "homepage": "https://github.com/NkFab/MyKabanBoard-Vanilla#readme",
+  "dependencies": {
+    "local-web-server": "^3.0.7"
+  }
+}

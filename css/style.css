@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body > nav {
+  position: fixed;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 2vh;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: thin;
+  font-size: 11pt;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: brown;
+  z-index: 9000;
+  overflow: auto;
+  transition: all 0.15s linear;
+}
+nav.active {
+  box-shadow: 1px 1px 5px #c4c4c4;
+}
+#main {
+  margin-top: 88px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.board {
+  border: 1px solid brown;
+  border-radius: 5px;
+  height: 40vh;
+  width: 20vw;
+}
+
+.board p {
+  margin-top: 0;
+  background: brown;
+  padding: 5px 0;
+  text-align: center;
+}
